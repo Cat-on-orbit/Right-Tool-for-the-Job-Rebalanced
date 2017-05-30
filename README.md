@@ -1,42 +1,33 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
+# Right Tool for the Job
+---------------------------------
+Right Tool for the Job adds assorted tools to help speed up your colonists work.
 
-This mod adds 3 types of tools to the game to speed up specific areas of a colonists work speed. Pickaxes to
-make a colonist mine faster, Axes to make a colonist chop down trees faster, and Hammers to make colonists
-build faster. There are advanced versions of these 3 tools that further increase the speed at which a colonist
-completes those tasks. (Drill, Chainsaw, Auto-hammer)
+## Screenshot
+- Coming soon!
 
-Normal tools increase the colonists efficiency in the skill by 30%
-Advanced tools increase the colonists efficiency in the skill by 90%
+## RimWorld Version Supported
+- Alpha 17 [(v. 0.17.1.6)](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/files/1039005/Right-Tool-for-the-Job-Rebalanced.zip)
 
-There are also 2 types of "clothing" that increase a colonists global work speed.
-The Toolbelt gives a 80% increase to all three skills work speed.
-The Advanced Toolbelt gives 180% increase to all three skills work speed.
+## Contributors
+### Artwork
+- Shinzy
 
-The normal tools are made from Steel and Wood. The advanced tools are made from Plasteel, Steel and Components.
-The Toolbelt and Advanced Toolbelt are made from the 3 tools of their type. (Normal or Advanced.)
-Toolbelts are belt accessories and can be worn with all clothes.
+## Contributors on GitHub
+- [Contributors](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/graphs/contributors)
 
-These are all made at the 'Tool Construction Table' which requires Electricity research.
+## Translations
+- I am happy to accept translations for this project. Post a download link for your files in the issues tab and I'll add it ASAP.
 
-All tools and the toolbelts can be traded with traders.
+## Permissions
+- You have my permission to use this mod in a modpack as long as credit is given to the original author
+
+## License 
+- see [LICENSE](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/blob/master/LICENSE.md) file
 
 ## Installation
-- Unzip the contents and place them in your RimWorld/Mods folder.
-- Activate the mod in the mod menu in the game.
+- Extract the archive and put the folder in your RimWorld/mods folder
 
-## History
-(May 30th, 2017) - Initial Release 0.17.1.6
-
-## Credits
-ItchyFlea: Original Mod
-Shinzy: Artwork
-Thundercraft: Original Rebalanced Fork
-Sixdd: Updated to A17 and Tweaked
-
-## License
-CC By-SA 4.0
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
+## Contact
+#### Six
+- Mod Homepage: [Link](https://ludeon.com/forums/index.php?topic=33092.0)
+- e-mail: [sixdd6@gmail.com](sixdd6@gmail.com)
