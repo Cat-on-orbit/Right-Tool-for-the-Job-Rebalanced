@@ -1,10 +1,10 @@
 <snippet>
-  <content>
+  <content> 
 # Right Tool For The Job: Rebalanced 
 
 --- 
 
-Right Tool for the Job adds assorted tools to help speed up your colonists work. 
+**Right Tool for the Job** adds assorted tools to help speed up your colonists work. 
 
 
 #### Screenshot 
