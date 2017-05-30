@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Right Tool: Rebalanced</name>
+  <author>Sixdd</author>
+  <targetVersion>0.17.1546</targetVersion>
+  <description>Version: 0.17.1.1
+
+This is a fork of ItchyFlea's Right Tool For The Job (RTFTJ), which is licensed under CC By-SA 4.0.
+( See this thread: https://ludeon.com/forums/index.php?topic=6666.0 )
+
+This mod adds the following to the game:
+
+ • Mining Tools (Weapon type)
+ • Woodcutting Tools (Weapon type)
+ • Construction Tools (Weapon type)
+ • Toolbelt (Accessory)
+ • Advanced Toolbelt (Accessory)
+
+All can be constructed at the 'Tool Construction Bench' for appropriate costs. The better tools (Drill, Chainsaw, Autohammer) require some plasteel and components to make, but they greatly increase a colonist's speed in the appropriate category.
+The Toolbelt and Advanced Toolbelt are clothing items which improve a colonist's work speeds in each category that the tools affect.
+
+Everything can also be traded with traders.
+
+Credits:
+============
+ItchyFlea:		Mod Creator
+Shinzy:			Texture Artist
+Thundercraft:	Rebalanced Fork
+Sixdd:			Updated to A17</description>
+</ModMetaData>
