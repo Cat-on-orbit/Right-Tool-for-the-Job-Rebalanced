@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-# ${1:Project Name}
+# ~Right Tool For The Job: Rebalanced~
 
 This mod adds 3 types of tools to the game to speed up specific areas of a colonists work speed. Pickaxes to
 make a colonist mine faster, Axes to make a colonist chop down trees faster, and Hammers to make colonists
