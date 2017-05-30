@@ -1,7 +1,7 @@
 <snippet>
   <content> 
 --- 
-Right Tool For The Job: Rebalanced 
+## Right Tool For The Job: Rebalanced 
 --- 
 
 
