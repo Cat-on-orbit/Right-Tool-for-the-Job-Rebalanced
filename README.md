@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[
-```# Right Tool For The Job: Rebalanced
+  <content>
+# Right Tool For The Job: Rebalanced
 ---------------------------------
 Right Tool for the Job adds assorted tools to help speed up your colonists work.
 
@@ -49,7 +49,7 @@ Thundercraft: Original Rebalanced Fork
 Sixdd: Updated to A17 and Tweaked
 
 ## License
-CC By-SA 4.0```
-]]></content>
+CC By-SA 4.0
+</content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
