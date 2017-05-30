@@ -1,5 +1,4 @@
-<snippet>
-  <content> 
+ 
 ----- 
 ### Right Tool For The Job: Rebalanced 
 -----  
@@ -49,6 +48,3 @@ Sixdd: Updated to A17 and Tweaked
 
 #### License  
 - see [LICENSE](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/blob/master/LICENSE.md) file 
-</content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
