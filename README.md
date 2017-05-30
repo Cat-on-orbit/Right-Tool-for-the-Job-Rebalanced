@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Right Tool for the Job
 ---------------------------------
 Right Tool for the Job adds assorted tools to help speed up your colonists work.
+=======
+<snippet>
+  <content><![CDATA[
+##  ~Right Tool For The Job: Rebalanced~
+>>>>>>> 94570b40bf1c091679e3eb8997777e9a26552d5b
 
 ## Screenshot
 - Coming soon!
@@ -25,9 +31,29 @@ Right Tool for the Job adds assorted tools to help speed up your colonists work.
 - see [LICENSE](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/blob/master/LICENSE.md) file
 
 ## Installation
+<<<<<<< HEAD
 - Extract the archive and put the folder in your RimWorld/mods folder
 
 ## Contact
 #### Six
 - Mod Homepage: [Link](https://ludeon.com/forums/index.php?topic=33092.0)
 - e-mail: [sixdd6@gmail.com](sixdd6@gmail.com)
+=======
+- Unzip the contents and place them in your RimWorld/Mods folder.
+- Activate the mod in the mod menu in the game.
+
+## History
+(May 30th, 2017) - Initial Release 0.17.1.6
+
+## Credits
+ItchyFlea: Original Mod
+Shinzy: Artwork
+Thundercraft: Original Rebalanced Fork
+Sixdd: Updated to A17 and Tweaked
+
+## License
+CC By-SA 4.0
+]]></content>
+  <tabTrigger>readme</tabTrigger>
+</snippet>
+>>>>>>> 94570b40bf1c091679e3eb8997777e9a26552d5b
