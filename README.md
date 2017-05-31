@@ -11,10 +11,6 @@ This mod adds assorted tools to help speed up your colonists work.
 #### RimWorld Version Supported 
 - Alpha 17 ([v. 0.17.1.7](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/releases/download/0.17.1.7/RightToolRebalanced.0.17.1.7.zip))
 
-## Contributors 
-#### Artwork 
-- Shinzy 
-
 ## Contributors on GitHub 
 - [Contributors](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/graphs/contributors) 
 
