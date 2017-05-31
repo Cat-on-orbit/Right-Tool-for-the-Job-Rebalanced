@@ -33,6 +33,7 @@ This mod adds assorted tools to help speed up your colonists work.
 - e-mail: [sixdd6@gmail.com](sixdd6@gmail.com) 
 
 ## History 
+- (May 31st, 2017) - Update to fix [GitHub Issue #1](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/issues/1)
 - (May 30th, 2017) - Initial Release 0.17.1.6  
  
 ## Credits  
