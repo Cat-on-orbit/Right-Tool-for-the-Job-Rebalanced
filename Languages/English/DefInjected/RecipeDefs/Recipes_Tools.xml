@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MakePickaxe.label>Make Pickaxe</MakePickaxe.label>
+	<MakePickaxe.description>Makes a pickaxe</MakePickaxe.description>
+
+	<MakeHandaxe.label>Make Handaxe</MakeHandaxe.label>
+	<MakeHandaxe.description>Makes a Handaxe</MakeHandaxe.description>
+
+	<MakeHammer.label>Make Hammer</MakeHammer.label>
+	<MakeHammer.description>Makes a Hammer</MakeHammer.description>
+
+	<MakeDrill.label>Make Drill</MakeDrill.label>
+	<MakeDrill.description>Makes a Drill</MakeDrill.description>
+
+	<MakeChainsaw.label>Make Chainsaw</MakeChainsaw.label>
+	<MakeChainsaw.description>Makes a Chainsaw</MakeChainsaw.description>
+
+	<MakeAutohammer.label>Make Auto-hammer</MakeAutohammer.label>
+	<MakeAutohammer.description>Makes a Auto-hammer</MakeAutohammer.description>
+
+	<MakeToolbelt.label>Make Toolbelt</MakeToolbelt.label>
+	<MakeToolbelt.description>Makes a Toolbelt</MakeToolbelt.description>
+
+	<MakeToolbeltAdv.label>Make Advanced Toolbelt</MakeToolbeltAdv.label>
+	<MakeToolbeltAdv.description>Makes an Advanced Toolbelt</MakeToolbeltAdv.description>
+
+</LanguageData>

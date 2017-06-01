@@ -2,11 +2,10 @@
 <ModMetaData>
   <name>Right Tool: Rebalanced</name>
   <author>Sixdd</author>
+  <url>https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced</url>
   <targetVersion>0.17.1546</targetVersion>
-  <description>Version: 0.17.1.1
-
-This is a fork of ItchyFlea's Right Tool For The Job (RTFTJ), which is licensed under CC By-SA 4.0.
-( See this thread: https://ludeon.com/forums/index.php?topic=6666.0 )
+  <description>This is a fork of ItchyFlea's "Right Tool For The Job", which is licensed under CC By-SA 4.0.
+  	(See this thread: https://ludeon.com/forums/index.php?topic=6666.0)
 
 This mod adds the following to the game:
 
@@ -21,10 +20,13 @@ The Toolbelt and Advanced Toolbelt are clothing items which improve a colonist's
 
 Everything can also be traded with traders.
 
+Mod Version: 0.17.1.8
+
 Credits:
 ============
 ItchyFlea:		Mod Creator
 Shinzy:			Texture Artist
 Thundercraft:	Rebalanced Fork
-Sixdd:			Updated to A17</description>
+Sixdd:			Updated to A17
+</description>
 </ModMetaData>

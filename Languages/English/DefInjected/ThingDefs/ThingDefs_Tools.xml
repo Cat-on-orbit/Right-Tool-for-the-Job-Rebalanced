@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<RTFTJ_Pickaxe.label>Pickaxe</RTFTJ_Pickaxe.label>
+	<RTFTJ_Pickaxe.description>A pickaxe for mining faster.</RTFTJ_Pickaxe.description>
+
+	<RTFTJ_HandAxe.label>Handaxe</RTFTJ_HandAxe.label>
+	<RTFTJ_HandAxe.description>A handaxe for chopping faster.</RTFTJ_HandAxe.description>
+
+	<RTFTJ_Hammer.label>Hammer</RTFTJ_Hammer.label>
+	<RTFTJ_Hammer.description>A hammer for building faster.</RTFTJ_Hammer.description>
+
+	<RTFTJ_Drill.label>Drill</RTFTJ_Drill.label>
+	<RTFTJ_Drill.description>A Drill for mining very quickly.</RTFTJ_Drill.description>
+
+	<RTFTJ_Chainsaw.label>Chainsaw</RTFTJ_Chainsaw.label>
+	<RTFTJ_Chainsaw.description>A chainsaw for chopping very quickly.</RTFTJ_Chainsaw.description>
+
+	<RTFTJ_Autohammer.label>Auto-hammer</RTFTJ_Autohammer.label>
+	<RTFTJ_Autohammer.description>An auto-hammer for building very quickly.</RTFTJ_Autohammer.description>
+
+	<RTFTJ_Toolbelt.label>Toolbelt</RTFTJ_Toolbelt.label>
+	<RTFTJ_Toolbelt.description>A toolbelt for mining, building and chopping faster.</RTFTJ_Toolbelt.description>
+
+	<RTFTJ_ToolbeltAdv.label>Advanced Toolbelt</RTFTJ_ToolbeltAdv.label>
+	<RTFTJ_ToolbeltAdv.description>An advanced toolbelt for mining, building and chopping very quickly.</RTFTJ_ToolbeltAdv.description>
+
+</LanguageData>
