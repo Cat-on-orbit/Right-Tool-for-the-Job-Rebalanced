@@ -35,10 +35,10 @@ This mod adds assorted tools to help speed up your colonists work.
 - (May 30th, 2017) - Initial Release 0.17.1.6 
  
 ## Credits 
-ItchyFlea: Original Mod 
-Shinzy: Artwork 
-Thundercraft: Original Rebalanced Fork 
-Sixdd: Updated to A17 and Tweaked 
+- ItchyFlea: Original Mod 
+- Shinzy: Artwork 
+- Thundercraft: Original Rebalanced Fork 
+- Sixdd: Updated to A17 and Tweaked 
  
 #### License 
 - see [LICENSE](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/blob/master/LICENSE.md) file 
