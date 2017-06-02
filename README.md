@@ -9,7 +9,7 @@ This mod adds assorted tools to help speed up your colonists work.
 ![screenshot](https://image.ibb.co/j1RoHa/preview.png) 
 
 #### RimWorld Version Supported 
-- Alpha 17 ([v. 0.17.1.8](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/releases/download/0.17.1.7/RightToolRebalanced.0.17.1.8.zip)) 
+- Alpha 17 ([v. 0.17.1.9](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/releases/download/0.17.1.9/Right-Tool-for-the-Job-Rebalanced-0.17.1.9.zip)) 
 
 ## Contributors 
 - Oken for the idea to increase yields when using tools
@@ -30,6 +30,7 @@ This mod adds assorted tools to help speed up your colonists work.
 - e-mail: [sixdd6@gmail.com](sixdd6@gmail.com) 
  
 ## Update Log 
+- (June 2nd, 2017) - Mage a change to increase yields when using mining and chopping tools
 - (June 1st, 2017) - Minor refactoring and added English language files 
 - (May 31st, 2017) - Update to fix [GitHub Issue #1](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/issues/1) 
 - (May 30th, 2017) - Initial Release 0.17.1.6 
