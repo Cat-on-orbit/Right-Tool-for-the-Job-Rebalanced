@@ -26,9 +26,10 @@
       <li>Metallic</li>
       <li>Woody</li>
     </stuffCategories>
-    <costStuffCount>175</costStuffCount>
+    <costStuffCount>135</costStuffCount>
     <CostList>
-      <Component>75</Component>
+      <Component>1</Component>
+      <Steel>10</Steel>
     </CostList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
