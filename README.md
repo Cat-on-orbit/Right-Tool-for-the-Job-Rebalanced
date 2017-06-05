@@ -1,7 +1,7 @@
  
-## Right Tool For The Job: Rebalanced 
+<center>## Right Tool For The Job: Rebalanced</center>
 
-![screenshot](https://image.ibb.co/j1RoHa/preview.png) 
+<center>![screenshot](https://image.ibb.co/j1RoHa/preview.png)</center>
 
 ### Description
 >This is a fork of ItchyFlea's "Right Tool For The Job", which is licensed under CC By-SA 4.0.
