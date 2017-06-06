@@ -6,7 +6,7 @@
 		<label>Make Pickaxe</label>
 		<description>Makes a pickaxe</description>
 		<jobString>Making a tool.</jobString>
-		<workAmount>5000</workAmount>
+		<workAmount>1400</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -45,7 +45,7 @@
 		<label>Make Axe</label>
 		<description>Makes an axe</description>
 		<jobString>Making a tool.</jobString>
-		<workAmount>6000</workAmount>
+		<workAmount>1400</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -84,7 +84,7 @@
 		<label>Make Hammer</label>
 		<description>Makes a hammer</description>
 		<jobString>Making a tool.</jobString>
-		<workAmount>4000</workAmount>
+		<workAmount>1400</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -123,7 +123,7 @@
 		<label>Make Drill</label>
 		<description>Makes a drill</description>
 		<jobString>Making a tool.</jobString>
-		<workAmount>55000</workAmount>
+		<workAmount>2800</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -171,7 +171,7 @@
 		<label>Make Chainsaw</label>
 		<description>Makes a chainsaw</description>
 		<jobString>Making a tool.</jobString>
-		<workAmount>55000</workAmount>
+		<workAmount>2800</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -219,7 +219,7 @@
 		<label>Make Autohammer</label>
 		<description>Makes an autohammer</description>
 		<jobString>Making a tool.</jobString>
-		<workAmount>55000</workAmount>
+		<workAmount>2800</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -267,7 +267,7 @@
 		<label>Make Toolbelt</label>
 		<description>Makes a toolbelt</description>
 		<jobString>Making a toolbelt.</jobString>
-		<workAmount>7000</workAmount>
+		<workAmount>2800</workAmount>
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -330,7 +330,7 @@
 		<label>Make Advanced Toolbelt</label>
 		<description>Makes a toolbelt</description>
 		<jobString>Making a toolbelt.</jobString>
-		<workAmount>9000</workAmount>
+		<workAmount>5600</workAmount>
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
