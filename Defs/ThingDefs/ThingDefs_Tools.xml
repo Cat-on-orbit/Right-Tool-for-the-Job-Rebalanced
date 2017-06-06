@@ -288,9 +288,9 @@
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<equippedStatOffsets>
-			<ConstructionSpeed>0.8</ConstructionSpeed>
-			<PlantWorkSpeed>0.8</PlantWorkSpeed>
-			<MiningSpeed>0.8</MiningSpeed>
+			<ConstructionSpeed>0.4</ConstructionSpeed>
+			<PlantWorkSpeed>0.4</PlantWorkSpeed>
+			<MiningSpeed>0.4</MiningSpeed>
 			<MiningYield>0.3</MiningYield>
 			<PlantHarvestYield>0.3</PlantHarvestYield>
 		</equippedStatOffsets>
@@ -322,9 +322,9 @@
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<equippedStatOffsets>
-			<MiningSpeed>1.8</MiningSpeed>
-			<PlantWorkSpeed>1.8</PlantWorkSpeed>
-			<ConstructionSpeed>1.8</ConstructionSpeed>
+			<MiningSpeed>1.0</MiningSpeed>
+			<PlantWorkSpeed>1.0</PlantWorkSpeed>
+			<ConstructionSpeed>1.0</ConstructionSpeed>
 			<MiningYield>0.7</MiningYield>
 			<PlantHarvestYield>0.7</PlantHarvestYield>
 		</equippedStatOffsets>
