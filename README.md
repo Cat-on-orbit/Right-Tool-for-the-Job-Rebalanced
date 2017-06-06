@@ -28,9 +28,6 @@
 ### Translations 
 - I am happy to accept translations for this project. Language files are now included in the project. 
 
-### Permissions 
-- You have my permission to use this mod in a modpack as long as credit is given to the original author 
- 
 ### Installation 
 - Unzip the contents and place them in your RimWorld/Mods folder. 
 - Activate the mod in the mod menu in the game. 
@@ -38,12 +35,6 @@
 ### Contact 
 - Forum Thread: [Link](https://ludeon.com/forums/index.php?topic=33092.0) 
 - e-mail: [sixdd6@gmail.com](sixdd6@gmail.com) 
- 
-### Update Log 
-- (June 2nd, 2017) - Mage a change to increase yields when using mining and chopping tools
-- (June 1st, 2017) - Minor refactoring and added English language files 
-- (May 31st, 2017) - Update to fix [GitHub Issue #1](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/issues/1) 
-- (May 30th, 2017) - Initial Release 0.17.1.6 
  
 ### Credits 
 - ItchyFlea: Original Mod 
