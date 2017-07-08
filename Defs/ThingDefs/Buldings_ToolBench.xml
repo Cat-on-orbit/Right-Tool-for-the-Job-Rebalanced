@@ -16,14 +16,15 @@
     <DefName>RTFTJToolBench</DefName>
     <label>Tool Construction Bench</label>
     <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A table and tools for assembling tools.</Description>
+    <Description>A table and machinery for assembling tools.</Description>
     <graphicData>
-      <texPath>Things/Building/Production/TableMachining</texPath>
+      <texPath>things/building/6dd_ToolBench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3.5,1.5)</drawSize>
     </graphicData>
     <stuffCategories>
       <li>Metallic</li>
+      <li>Stony</li>
       <li>Woody</li>
     </stuffCategories>
     <costStuffCount>80</costStuffCount>
@@ -69,6 +70,11 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
     </comps>
     <researchPrerequisites>
       <li>Electricity</li>
