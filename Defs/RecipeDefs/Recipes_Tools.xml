@@ -74,8 +74,8 @@
 		</products>
 		<fixedIngredientFilter>
 			<ThingDefs>
-				<li>Metals</li>
-				<li>WoodLogs</li>
+				<li>Steel</li>
+				<li>WoodLog</li>
 			</ThingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
