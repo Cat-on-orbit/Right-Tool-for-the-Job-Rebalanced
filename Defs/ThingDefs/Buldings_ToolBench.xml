@@ -48,14 +48,6 @@
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <recipes>
-		  <li>MakeHandaxe</li>
-		  <li>MakePickaxe</li>
-		  <li>MakeHammer</li>
-		  <li>MakeChainsaw</li>
-		  <li>MakeDrill</li>
-		  <li>MakeAutohammer</li>
-		  <li>MakeToolbelt</li>
-		  <li>MakeToolbeltAdv</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>

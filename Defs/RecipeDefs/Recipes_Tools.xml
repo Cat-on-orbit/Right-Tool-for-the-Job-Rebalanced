@@ -11,6 +11,9 @@
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    	<recipeUsers>
+			<li>RTFTJToolBench</li>
+		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -51,6 +54,9 @@
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
+			<li>RTFTJToolBench</li>
+		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -91,6 +97,9 @@
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    	<recipeUsers>
+			<li>RTFTJToolBench</li>
+		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -131,6 +140,9 @@
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    	<recipeUsers>
+			<li>RTFTJToolBench</li>
+		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -180,6 +192,9 @@
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    	<recipeUsers>
+			<li>RTFTJToolBench</li>
+		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -229,6 +244,9 @@
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    	<recipeUsers>
+			<li>RTFTJToolBench</li>
+		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -278,6 +296,9 @@
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    	<recipeUsers>
+			<li>RTFTJToolBench</li>
+		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -342,6 +363,9 @@
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
     	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    	<recipeUsers>
+			<li>RTFTJToolBench</li>
+		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
