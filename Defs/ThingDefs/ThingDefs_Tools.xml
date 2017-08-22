@@ -1,63 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-
 <ThingDefs>
 
-  <ThingDef Name="BaseMeleeWeapon" Abstract="True">
-    <category>Item</category>
-    <thingClass>ThingWithComps</thingClass>
-    <equipmentType>Primary</equipmentType>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>0.5</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
-    <techLevel>Medieval</techLevel>
-    <weaponTags>
-      <li>Melee</li>
-    </weaponTags>
-    <thingCategories>
-      <li>WeaponsMelee</li>
-    </thingCategories>
-    <comps>
-      <li>
-        <compClass>CompForbiddable</compClass>
-      </li>
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponMelee</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-    </comps>
-    <inspectorTabs>
-      <li>ITab_Art</li>
-    </inspectorTabs>
-  </ThingDef>
+	<ThingDef Name="BaseToolNeolithic" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="BaseToolMedieval" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="BaseToolIndustrial" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="BaseToolSpacer" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+	</ThingDef>
 
   <!-- ============================================================== -->
 
-	<ThingDef ParentName="BaseMeleeWeapon">
+  <!-- Neolithic Tools -->
+	<ThingDef ParentName="BaseToolNeolithic">
+		<defName>RTFTJ_Neo_Pick</defName>
+		<label>Stone Pick</label>
+		<description>A pick for mining.</description>
+		<graphicData>
+			<texPath>things/items/tools/StonePick</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<statBases>
+			<MarketValue>22</MarketValue>
+			<Mass>3.25</Mass>
+			<MeleeWeapon_DamageAmount>6</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>2.1</MeleeWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>0</equippedAngleOffset>
+			<verbs>
+				<li>
+					<verbClass>Verb_MeleeAttack</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<meleeDamageDef>Stab</meleeDamageDef>
+				</li>
+			</verbs>
+		<equippedStatOffsets>
+			<MiningSpeed>0.15</MiningSpeed>
+			<MiningYield>0.15</MiningYield>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseToolNeolithic">
+		<defName>RTFTJ_Neo_Shovel</defName>
+		<label>Stone Shovel</label>
+		<description>A shovel for plants.</description>
+		<graphicData>
+			<texPath>things/items/tools/StoneShovel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<statBases>
+			<MarketValue>22</MarketValue>
+			<Mass>3.25</Mass>
+			<MeleeWeapon_DamageAmount>6</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>2.1</MeleeWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>0</equippedAngleOffset>
+			<verbs>
+				<li>
+					<verbClass>Verb_MeleeAttack</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<meleeDamageDef>Stab</meleeDamageDef>
+				</li>
+			</verbs>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.15</PlantWorkSpeed>
+			<PlantHarvestYield>0.15</PlantHarvestYield>
+		</equippedStatOffsets>
+	</ThingDef>
+
+  <!-- Industrial Tools -->
+	<ThingDef ParentName="BaseToolIndustrial">
 		<defName>RTFTJ_Pickaxe</defName>
 		<label>Pickaxe</label>
 		<description>A pickaxe for mining faster.</description>
 		<graphicData>
-			<texPath>Tools/Pickaxe</texPath>
+			<texPath>things/items/tools/Pickaxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPistol</soundInteract>
@@ -81,12 +120,12 @@
 		</equippedStatOffsets>
 	</ThingDef>
 	
-	<ThingDef ParentName="BaseMeleeWeapon">
+	<ThingDef ParentName="BaseToolIndustrial">
 		<defName>RTFTJ_HandAxe</defName>
 		<label>Axe</label>
 		<description>An axe for chopping down trees.</description>
 		<graphicData>
-			<texPath>Tools/HandAxe</texPath>
+			<texPath>things/items/tools/HandAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPistol</soundInteract>
@@ -110,12 +149,12 @@
 		</equippedStatOffsets>
 	</ThingDef>
 	
-	<ThingDef ParentName="BaseMeleeWeapon">
+	<ThingDef ParentName="BaseToolIndustrial">
 		<defName>RTFTJ_Hammer</defName>
 		<label>Hammer</label>
 		<description>A hammer for building with.</description>
 		<graphicData>
-			<texPath>Tools/Hammer</texPath>
+			<texPath>things/items/tools/Hammer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPistol</soundInteract>
@@ -135,16 +174,18 @@
 			</verbs>
 		<equippedStatOffsets>
 			<ConstructionSpeed>0.3</ConstructionSpeed>
+			<ConstructSuccessChance>0.3</ConstructSuccessChance>
+			<FixBrokenDownBuildingSuccessChance>0.3</FixBrokenDownBuildingSuccessChance>
 		</equippedStatOffsets>
 	</ThingDef>
-	
-	<ThingDef ParentName="BaseMeleeWeapon">
+
+	<ThingDef ParentName="BaseToolIndustrial">
 		<defName>RTFTJ_Drill</defName>
 		<label>Drill</label>
 		<techLevel>Industrial</techLevel>
 		<description>A drill for mining much faster.</description>
 		<graphicData>
-			<texPath>Tools/Drill</texPath>
+			<texPath>things/items/tools/Drill</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPistol</soundInteract>
@@ -163,18 +204,18 @@
 				</li>
 			</verbs>
 		<equippedStatOffsets>
-			<MiningSpeed>0.9</MiningSpeed>
-			<MiningYield>0.5</MiningYield>
+			<MiningSpeed>0.6</MiningSpeed>
+			<MiningYield>0.6</MiningYield>
 		</equippedStatOffsets>
 	</ThingDef>
 	
-	<ThingDef ParentName="BaseMeleeWeapon">
+	<ThingDef ParentName="BaseToolIndustrial">
 		<defName>RTFTJ_Chainsaw</defName>
 		<label>Chainsaw</label>
 		<techLevel>Industrial</techLevel>
-		<description>A chainsaw for sawing down trees.</description>
+		<description>A chainsaw for cutting down trees.</description>
 		<graphicData>
-			<texPath>Tools/Chainsaw</texPath>
+			<texPath>things/items/tools/Chainsaw</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPistol</soundInteract>
@@ -193,18 +234,18 @@
 				</li>
 			</verbs>
 		<equippedStatOffsets>
-			<PlantWorkSpeed>0.9</PlantWorkSpeed>
-			<PlantHarvestYield>0.5</PlantHarvestYield>
+			<PlantWorkSpeed>0.6</PlantWorkSpeed>
+			<PlantHarvestYield>0.6</PlantHarvestYield>
 		</equippedStatOffsets>
 	</ThingDef>
 	
-	<ThingDef ParentName="BaseMeleeWeapon">
+	<ThingDef ParentName="BaseToolIndustrial">
 		<defName>RTFTJ_Autohammer</defName>
 		<label>Auto-Hammer</label>
 		<techLevel>Industrial</techLevel>
 		<description>A hammer for building with.</description>
 		<graphicData>
-			<texPath>Tools/Autohammer</texPath>
+			<texPath>things/items/tools/Autohammer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPistol</soundInteract>
@@ -223,51 +264,22 @@
 				</li>
 			</verbs>
 		<equippedStatOffsets>
-			<ConstructionSpeed>0.9</ConstructionSpeed>
+			<ConstructionSpeed>0.6</ConstructionSpeed>
+			<ConstructSuccessChance>0.6</ConstructSuccessChance>
+			<FixBrokenDownBuildingSuccessChance>0.6</FixBrokenDownBuildingSuccessChance>
 		</equippedStatOffsets>
 	</ThingDef>
-	
-  <ThingDef Name="ApparelBase" Abstract="True">
-    <thingClass>Apparel</thingClass>
-    <category>Item</category>
-    <selectable>True</selectable>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>1</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-    <comps>
-      <li>
-        <compClass>CompForbiddable</compClass>
-      </li>
-      <li>
-        <compClass>CompColorable</compClass>
-      </li>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-    </comps>
-  </ThingDef>
-	
+
+	<!-- Spacer Tools Coming Soon -->
+
+	<!-- Tool Belts -->
 	<ThingDef ParentName="ApparelBase">
 		<defName>RTFTJ_Toolbelt</defName>
 		<label>Toolbelt</label>
 		<description>A basic toolbelt.</description>
+		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Tools/Toolbelt</texPath>
+			<texPath>things/items/tools/Toolbelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -278,7 +290,7 @@
 			<bodyPartGroups>
 				<li>Hands</li>
 			</bodyPartGroups>
-			<worngraphicPath>Tools/Toolbelt</worngraphicPath>
+			<worngraphicPath>things/items/tools/Toolbelt</worngraphicPath>
 			<layers>
 				<li>Belt</li>
 			</layers>
@@ -288,11 +300,13 @@
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<equippedStatOffsets>
-			<ConstructionSpeed>0.4</ConstructionSpeed>
-			<PlantWorkSpeed>0.4</PlantWorkSpeed>
-			<MiningSpeed>0.4</MiningSpeed>
-			<MiningYield>0.3</MiningYield>
-			<PlantHarvestYield>0.3</PlantHarvestYield>
+			<ConstructionSpeed>0.45</ConstructionSpeed>
+			<ConstructSuccessChance>0.45</ConstructSuccessChance>
+			<FixBrokenDownBuildingSuccessChance>0.45</FixBrokenDownBuildingSuccessChance>
+			<PlantWorkSpeed>0.45</PlantWorkSpeed>
+			<PlantHarvestYield>0.45</PlantHarvestYield>
+			<MiningSpeed>0.45</MiningSpeed>
+			<MiningYield>0.45</MiningYield>
 		</equippedStatOffsets>
 	</ThingDef>
   
@@ -300,8 +314,9 @@
 		<defName>RTFTJ_ToolbeltAdv</defName>
 		<label>Advanced Toolbelt</label>
 		<description>An advanced toolbelt.</description>
+		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Tools/ADVToolbelt</texPath>
+			<texPath>things/items/tools/ADVToolbelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -312,7 +327,7 @@
 			<bodyPartGroups>
 				<li>Hands</li>
 			</bodyPartGroups>
-			<worngraphicPath>Tools/ADVToolbelt</worngraphicPath>
+			<worngraphicPath>things/items/tools/ADVToolbelt</worngraphicPath>
 			<layers>
 				<li>Belt</li>
 			</layers>
@@ -322,11 +337,13 @@
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<equippedStatOffsets>
-			<MiningSpeed>1.0</MiningSpeed>
-			<PlantWorkSpeed>1.0</PlantWorkSpeed>
-			<ConstructionSpeed>1.0</ConstructionSpeed>
-			<MiningYield>0.7</MiningYield>
-			<PlantHarvestYield>0.7</PlantHarvestYield>
+			<ConstructionSpeed>0.75</ConstructionSpeed>
+			<ConstructSuccessChance>0.75</ConstructSuccessChance>
+			<FixBrokenDownBuildingSuccessChance>0.75</FixBrokenDownBuildingSuccessChance>
+			<PlantWorkSpeed>0.75</PlantWorkSpeed>
+			<PlantHarvestYield>0.75</PlantHarvestYield>
+			<MiningSpeed>0.75</MiningSpeed>
+			<MiningYield>0.75</MiningYield>
 		</equippedStatOffsets>
 	</ThingDef>
 
