@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+  
+  <WorkGiverDef>
+    <defName>DoBillsMaketool</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <label>Make Tool</label>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+    <verb>tool make</verb>
+    <gerund>making tool</gerund>
+    <requiredCapacities>
+		  <li>Manipulation</li>
+    </requiredCapacities>
+    <fixedBillGiverDefs>
+      <li>RTFTJToolBench</li>
+    </fixedBillGiverDefs>
+  </WorkGiverDef>
+  
+</WorkGivers>
