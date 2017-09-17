@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<Operations>
+			<li Class="PatchOperationAdd">
+				<xpath>//ThingDef[DefName = "RTFTJToolBench"]/comps/li/linkableFacilities</xpath>
+				<value>
+					<li>ToolCabinetA</li>
+					<li>ToolCabinetB</li>
+					<li>ToolCabinetC</li>
+				</value>
+			</li>
+		</Operations>
+	</Operation>
+	
+</Patch>
