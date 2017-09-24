@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef Name="BaseToolNeolithic" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="BaseToolMedieval" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="BaseToolIndustrial" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="BaseToolSpacer" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+
+  <!-- ============================================================== -->
+
+	<!-- Spacer Tools Coming Soon -->
+
+
+</ThingDefs>
