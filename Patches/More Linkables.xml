@@ -4,6 +4,9 @@
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<Operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[DefName = "ToolCabinetA"]</xpath>
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>//ThingDef[DefName = "RTFTJToolBench"]/comps/li/linkableFacilities</xpath>
 				<value>
