@@ -286,6 +286,8 @@
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
+	<!--  Toolbelts  -->
+
 	<RecipeDef>
 		<defName>MakeToolbelt</defName>
 		<label>Make Toolbelt</label>

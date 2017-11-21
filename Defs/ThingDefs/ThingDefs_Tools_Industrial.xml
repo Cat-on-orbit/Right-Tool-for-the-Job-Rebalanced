@@ -1,3 +1,4 @@
+<<<<<<< HEAD:Defs/ThingDefs/ThingDefs_Tools.xml
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
@@ -137,6 +138,11 @@
 		</equippedStatOffsets>
 	</ThingDef>
 
+=======
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+>>>>>>> 101a0f4ee8bf197a1040845d9734ae5869d4808f:Defs/ThingDefs/ThingDefs_Tools_Industrial.xml
   <!-- Industrial Tools -->
 	<ThingDef ParentName="BaseToolIndustrial">
 		<defName>RTFTJ_Pickaxe</defName>
@@ -165,6 +171,7 @@
 			<MiningSpeed>0.3</MiningSpeed>
 			<MiningYield>0.3</MiningYield>
 		</equippedStatOffsets>
+		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseToolIndustrial">
@@ -194,6 +201,7 @@
 			<PlantWorkSpeed>0.3</PlantWorkSpeed>
 			<PlantHarvestYield>0.3</PlantHarvestYield>
 		</equippedStatOffsets>
+		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseToolIndustrial">
@@ -224,6 +232,7 @@
 			<ConstructSuccessChance>0.3</ConstructSuccessChance>
 			<FixBrokenDownBuildingSuccessChance>0.3</FixBrokenDownBuildingSuccessChance>
 		</equippedStatOffsets>
+		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseToolIndustrial">
@@ -254,6 +263,7 @@
 			<MiningSpeed>0.6</MiningSpeed>
 			<MiningYield>0.6</MiningYield>
 		</equippedStatOffsets>
+		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseToolIndustrial">
@@ -284,6 +294,7 @@
 			<PlantWorkSpeed>0.6</PlantWorkSpeed>
 			<PlantHarvestYield>0.6</PlantHarvestYield>
 		</equippedStatOffsets>
+		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseToolIndustrial">
@@ -315,8 +326,10 @@
 			<ConstructSuccessChance>0.6</ConstructSuccessChance>
 			<FixBrokenDownBuildingSuccessChance>0.6</FixBrokenDownBuildingSuccessChance>
 		</equippedStatOffsets>
+		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
 
+<<<<<<< HEAD:Defs/ThingDefs/ThingDefs_Tools.xml
   <!-- Spacer Tools Coming Soon -->
 
   <!-- Tool Belts -->
@@ -356,6 +369,10 @@
   </ThingDef>
 
 	<ThingDef ParentName="BaseToolBelt">
+=======
+	<!-- Tool Belts -->
+	<ThingDef ParentName="ApparelBase">
+>>>>>>> 101a0f4ee8bf197a1040845d9734ae5869d4808f:Defs/ThingDefs/ThingDefs_Tools_Industrial.xml
 		<defName>RTFTJ_Toolbelt</defName>
 		<label>Toolbelt</label>
 		<description>A basic toolbelt.</description>
@@ -370,7 +387,7 @@
 		</statBases>
 		<apparel>
 			<bodyPartGroups>
-				<li>Hands</li>
+				<li>Waist</li>
 			</bodyPartGroups>
 			<worngraphicPath>things/items/tools/Toolbelt</worngraphicPath>
 			<layers>
@@ -390,9 +407,15 @@
 			<MiningSpeed>0.45</MiningSpeed>
 			<MiningYield>0.45</MiningYield>
 		</equippedStatOffsets>
+		<thingCategories><li>Apparel</li></thingCategories>
 	</ThingDef>
+<<<<<<< HEAD:Defs/ThingDefs/ThingDefs_Tools.xml
 
 	<ThingDef ParentName="BaseToolBelt">
+=======
+  
+	<ThingDef ParentName="ApparelBase">
+>>>>>>> 101a0f4ee8bf197a1040845d9734ae5869d4808f:Defs/ThingDefs/ThingDefs_Tools_Industrial.xml
 		<defName>RTFTJ_ToolbeltAdv</defName>
 		<label>Advanced Toolbelt</label>
 		<description>An advanced toolbelt.</description>
@@ -407,14 +430,14 @@
 		</statBases>
 		<apparel>
 			<bodyPartGroups>
-				<li>Hands</li>
+				<li>Waist</li>
 			</bodyPartGroups>
 			<worngraphicPath>things/items/tools/ADVToolbelt</worngraphicPath>
 			<layers>
 				<li>Belt</li>
 			</layers>
 			<tags>
-				<li>ADVToolbelt</li>
+				<li>Toolbelt</li>
 			</tags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -427,6 +450,7 @@
 			<MiningSpeed>0.75</MiningSpeed>
 			<MiningYield>0.75</MiningYield>
 		</equippedStatOffsets>
+		<thingCategories><li>Apparel</li></thingCategories>
 	</ThingDef>
 
 </Defs>
