@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <!-- Neolithic Tools -->
 	<ThingDef ParentName="BaseToolNeolithic">
@@ -10,21 +10,22 @@
 			<texPath>things/items/tools/StonePick</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<statBases>
 			<MarketValue>22</MarketValue>
 			<Mass>3.25</Mass>
-			<MeleeWeapon_DamageAmount>6</MeleeWeapon_DamageAmount>
-			<MeleeWeapon_Cooldown>2.1</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>0</equippedAngleOffset>
-			<verbs>
-				<li>
-					<verbClass>Verb_MeleeAttack</verbClass>
-					<hasStandardCommand>true</hasStandardCommand>
-					<meleeDamageDef>Stab</meleeDamageDef>
-				</li>
-			</verbs>
+		<tools>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+		</tools>
 		<equippedStatOffsets>
 			<MiningSpeed>0.15</MiningSpeed>
 			<MiningYield>0.15</MiningYield>
@@ -35,26 +36,27 @@
 	<ThingDef ParentName="BaseToolNeolithic">
 		<defName>RTFTJ_Neo_Shovel</defName>
 		<label>Stone Shovel</label>
-		<description>A shovel for plants.</description>
+		<description>A shovel for growing.</description>
 		<graphicData>
 			<texPath>things/items/tools/StoneShovel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<statBases>
 			<MarketValue>22</MarketValue>
 			<Mass>3.25</Mass>
-			<MeleeWeapon_DamageAmount>6</MeleeWeapon_DamageAmount>
-			<MeleeWeapon_Cooldown>2.1</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>0</equippedAngleOffset>
-			<verbs>
-				<li>
-					<verbClass>Verb_MeleeAttack</verbClass>
-					<hasStandardCommand>true</hasStandardCommand>
-					<meleeDamageDef>Stab</meleeDamageDef>
-				</li>
-			</verbs>
+		<tools>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+		</tools>
 		<equippedStatOffsets>
 			<PlantWorkSpeed>0.15</PlantWorkSpeed>
 			<PlantHarvestYield>0.15</PlantHarvestYield>
@@ -62,4 +64,4 @@
 		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

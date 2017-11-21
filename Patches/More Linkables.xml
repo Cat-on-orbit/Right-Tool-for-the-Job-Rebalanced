@@ -3,19 +3,20 @@
 
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
-		<Operations>
-			<li Class="PatchOperationTest">
-				<xpath>*/ThingDef[DefName = "ToolCabinetA"]</xpath>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>More Linkables</modName>
+				<yourMod>Right Tool Rebalanced</yourMod>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>//ThingDef[DefName = "RTFTJToolBench"]/comps/li/linkableFacilities</xpath>
+				<xpath>*/ThingDef[DefName = "RTFTJToolBench"]/comps/li/linkableFacilities</xpath>
 				<value>
 					<li>ToolCabinetA</li>
 					<li>ToolCabinetB</li>
 					<li>ToolCabinetC</li>
 				</value>
 			</li>
-		</Operations>
+		</operations>
 	</Operation>
-	
+
 </Patch>

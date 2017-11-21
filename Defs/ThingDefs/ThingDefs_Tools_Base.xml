@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef Name="BaseToolNeolithic" ParentName="BaseMeleeWeapon" Abstract="True">
 		<techLevel>Neolithic</techLevel>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef Name="BaseToolMedieval" ParentName="BaseMeleeWeapon" Abstract="True">
@@ -13,6 +18,11 @@
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef Name="BaseToolIndustrial" ParentName="BaseMeleeWeapon" Abstract="True">
@@ -20,6 +30,11 @@
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef Name="BaseToolSpacer" ParentName="BaseMeleeWeapon" Abstract="True">
@@ -27,11 +42,46 @@
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
 	</ThingDef>
 
-  <!-- ============================================================== -->
+	<ThingDef Name="BaseToolBelt" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<graphicData>
+		  <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+		  <MaxHitPoints>100</MaxHitPoints>
+		  <Flammability>1.0</Flammability>
+		  <DeteriorationRate>1</DeteriorationRate>
+		  <SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<thingCategories>
+		  <li>Apparel</li>
+		</thingCategories>
+		<comps>
+		  <li>
+				<compClass>CompForbiddable</compClass>
+		  </li>
+		  <li>
+				<compClass>CompColorable</compClass>
+		  </li>
+		  <li>
+				<compClass>CompQuality</compClass>
+		  </li>
+		</comps>
+  </ThingDef>
 
-	<!-- Spacer Tools Coming Soon -->
-
-
-</ThingDefs>
+</Defs>

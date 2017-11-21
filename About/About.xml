@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Right Tool: Rebalanced</name>
+  <name>Right Tool Rebalanced</name>
   <author>Sixdd</author>
   <url>https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced</url>
   <targetVersion>0.18.1722</targetVersion>
   <description>This is a fork of ItchyFlea's "Right Tool For The Job", which is licensed under CC By-SA 4.0.\n (See this thread: https://ludeon.com/forums/index.php?topic=6666.0)
 
 !EXPERIMENTAL B18 BUILD!
-!MAY CONTAIN BUGS!
+  !PLEASE REPORT BUGS!
 
 This mod adds the following to the game:
 

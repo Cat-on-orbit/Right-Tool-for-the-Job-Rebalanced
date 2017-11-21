@@ -11,6 +11,7 @@
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3.5,1.5)</drawSize>
     </graphicData>
+    <size>(3,1)</size>
     <stuffCategories>
       <li>Metallic</li>
       <li>Stony</li>
@@ -29,7 +30,6 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <Size>(3,1)</Size>
     <designationCategory>Production</designationCategory>
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>

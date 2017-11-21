@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef>
 		<defName>MakeStonePick</defName>
-		<label>Make Stone Pick</label>
+		<label>make stone pick</label>
 		<description>Makes a stone pickaxe</description>
 		<jobString>Making a tool.</jobString>
 		<workAmount>1800</workAmount>
@@ -25,9 +25,9 @@
 			</li>
 			<li>
 				<filter>
-					<ThingDefs>
+					<thingDefs>
 						<li>WoodLog</li>
-					</ThingDefs>
+					</thingDefs>
 				</filter>
 				<count>5</count>
 			</li>
@@ -39,16 +39,16 @@
 			<categories>
 				<li>StoneChunks</li>
 			</categories>
-			<ThingDefs>
+			<thingDefs>
 				<li>WoodLog</li>
-			</ThingDefs>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	<RecipeDef>
 		<defName>MakeStoneShovel</defName>
-		<label>Make Stone Shovel</label>
+		<label>make stone shovel</label>
 		<description>Makes a stone shovel</description>
 		<jobString>Making a tool.</jobString>
 		<workAmount>1800</workAmount>
@@ -70,9 +70,9 @@
 			</li>
 			<li>
 				<filter>
-					<ThingDefs>
+					<thingDefs>
 						<li>WoodLog</li>
-					</ThingDefs>
+					</thingDefs>
 				</filter>
 				<count>5</count>
 			</li>
@@ -84,11 +84,11 @@
 			<categories>
 				<li>StoneChunks</li>
 			</categories>
-			<ThingDefs>
+			<thingDefs>
 				<li>WoodLog</li>
-			</ThingDefs>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

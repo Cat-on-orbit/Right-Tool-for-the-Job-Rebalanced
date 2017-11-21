@@ -17,17 +17,17 @@
 		<ingredients>
 			<li>
 				<filter>
-					<ThingDefs>
+					<thingDefs>
 						<li>Steel</li>
-					</ThingDefs>
+					</thingDefs>
 				</filter>
 				<count>20</count>
 			</li>
 			<li>
 				<filter>
-					<ThingDefs>
+					<thingDefs>
 						<li>WoodLog</li>
-					</ThingDefs>
+					</thingDefs>
 				</filter>
 				<count>10</count>
 			</li>
@@ -36,10 +36,10 @@
 			<RTFTJ_Pickaxe>1</RTFTJ_Pickaxe>
 		</products>
 		<fixedIngredientFilter>
-			<ThingDefs>
+			<thingDefs>
 				<li>Steel</li>
 				<li>WoodLog</li>
-			</ThingDefs>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
@@ -60,29 +60,29 @@
 		<ingredients>
 			<li>
 				<filter>
-					<ThingDefs>
+					<thingDefs>
 						<li>Steel</li>
-					</ThingDefs>
+					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
-					<ThingDefs>
+					<thingDefs>
 						<li>WoodLog</li>
-					</ThingDefs>
+					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<products>
 			<RTFTJ_HandAxe>1</RTFTJ_HandAxe>
 		</products>
 		<fixedIngredientFilter>
-			<ThingDefs>
+			<thingDefs>
 				<li>Steel</li>
 				<li>WoodLog</li>
-			</ThingDefs>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
@@ -103,29 +103,29 @@
 		<ingredients>
 			<li>
 				<filter>
-					<ThingDefs>
+					<thingDefs>
 						<li>Steel</li>
-					</ThingDefs>
+					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
-					<ThingDefs>
+					<thingDefs>
 						<li>WoodLog</li>
-					</ThingDefs>
+					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<products>
 			<RTFTJ_Hammer>1</RTFTJ_Hammer>
 		</products>
 		<fixedIngredientFilter>
-			<ThingDefs>
+			<thingDefs>
 				<li>Steel</li>
 				<li>WoodLog</li>
-			</ThingDefs>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
@@ -158,7 +158,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -210,7 +210,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -262,7 +262,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>

@@ -8,7 +8,6 @@
 			<texPath>Things/Item/Unfinished/UnfinishedComponent</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<thingCategories><li>Unfinished</li></thingCategories>
 		<stuffCategories />
 	</ThingDef>
 
