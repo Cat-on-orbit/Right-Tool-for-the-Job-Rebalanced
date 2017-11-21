@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef>
 		<defName>MakePickaxe</defName>
-		<label>Make Pickaxe</label>
+		<label>make pickaxe</label>
 		<description>Makes a pickaxe</description>
 		<jobString>Making a tool.</jobString>
 		<workAmount>2475</workAmount>
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
-    	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-    	<recipeUsers>
+  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+  	<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -21,7 +21,7 @@
 						<li>Steel</li>
 					</ThingDefs>
 				</filter>
-				<count>12</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -29,7 +29,7 @@
 						<li>WoodLog</li>
 					</ThingDefs>
 				</filter>
-				<count>20</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<products>
@@ -96,8 +96,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
-    	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-    	<recipeUsers>
+  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+  	<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -139,8 +139,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
-    	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-    	<recipeUsers>
+  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+  	<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -191,8 +191,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
-    	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-    	<recipeUsers>
+  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+  	<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -243,8 +243,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
-    	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-    	<recipeUsers>
+  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+  	<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -295,8 +295,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
-    	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-    	<recipeUsers>
+  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+  	<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -362,8 +362,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
-    	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-    	<recipeUsers>
+  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+  	<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -420,4 +420,4 @@
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

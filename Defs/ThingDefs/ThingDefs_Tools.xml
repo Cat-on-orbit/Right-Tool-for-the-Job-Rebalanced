@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
-<<<<<<< HEAD
-	<ThingDef Name="BaseToolNeolithic" ParentName="BaseMeleeWeapon" Abstract="True">
-=======
 	<ThingDef Name="BaseTool" Abstract="True">
 		<category>Item</category>
 		<thingClass>ThingWithComps</thingClass>
@@ -52,40 +49,27 @@
 	</ThingDef>
 
 	<ThingDef Name="BaseToolNeolithic" ParentName="BaseTool" Abstract="True">
->>>>>>> fb7fbb1d2d42a8a76b7eedba8b3daa871e9b284a
 		<techLevel>Neolithic</techLevel>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 		</statBases>
 	</ThingDef>
 
-<<<<<<< HEAD
-	<ThingDef Name="BaseToolMedieval" ParentName="BaseMeleeWeapon" Abstract="True">
-=======
 	<ThingDef Name="BaseToolMedieval" ParentName="BaseTool" Abstract="True">
->>>>>>> fb7fbb1d2d42a8a76b7eedba8b3daa871e9b284a
 		<techLevel>Medieval</techLevel>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 		</statBases>
 	</ThingDef>
 
-<<<<<<< HEAD
-	<ThingDef Name="BaseToolIndustrial" ParentName="BaseMeleeWeapon" Abstract="True">
-=======
 	<ThingDef Name="BaseToolIndustrial" ParentName="BaseTool" Abstract="True">
->>>>>>> fb7fbb1d2d42a8a76b7eedba8b3daa871e9b284a
 		<techLevel>Industrial</techLevel>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 		</statBases>
 	</ThingDef>
 
-<<<<<<< HEAD
-	<ThingDef Name="BaseToolSpacer" ParentName="BaseMeleeWeapon" Abstract="True">
-=======
 	<ThingDef Name="BaseToolSpacer" ParentName="BaseTool" Abstract="True">
->>>>>>> fb7fbb1d2d42a8a76b7eedba8b3daa871e9b284a
 		<techLevel>Spacer</techLevel>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -127,15 +111,9 @@
 	<ThingDef ParentName="BaseToolNeolithic">
 		<defName>RTFTJ_Neo_Shovel</defName>
 		<label>Stone Shovel</label>
-<<<<<<< HEAD
 		<description>A shovel for plants.</description>
 		<graphicData>
 			<texPath>things/items/tools/StoneShovel</texPath>
-=======
-		<description>A shovel for growing.</description>
-		<graphicData>
-			<texPath>things/items/tools/StonePick</texPath>
->>>>>>> fb7fbb1d2d42a8a76b7eedba8b3daa871e9b284a
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPistol</soundInteract>
@@ -188,7 +166,7 @@
 			<MiningYield>0.3</MiningYield>
 		</equippedStatOffsets>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseToolIndustrial">
 		<defName>RTFTJ_HandAxe</defName>
 		<label>Axe</label>
@@ -217,7 +195,7 @@
 			<PlantHarvestYield>0.3</PlantHarvestYield>
 		</equippedStatOffsets>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseToolIndustrial">
 		<defName>RTFTJ_Hammer</defName>
 		<label>Hammer</label>
@@ -277,7 +255,7 @@
 			<MiningYield>0.6</MiningYield>
 		</equippedStatOffsets>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseToolIndustrial">
 		<defName>RTFTJ_Chainsaw</defName>
 		<label>Chainsaw</label>
@@ -307,7 +285,7 @@
 			<PlantHarvestYield>0.6</PlantHarvestYield>
 		</equippedStatOffsets>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseToolIndustrial">
 		<defName>RTFTJ_Autohammer</defName>
 		<label>Auto-Hammer</label>
@@ -339,52 +317,45 @@
 		</equippedStatOffsets>
 	</ThingDef>
 
-<<<<<<< HEAD
-	<!-- Spacer Tools Coming Soon -->
-
-	<!-- Tool Belts -->
-	<ThingDef ParentName="ApparelBase">
-=======
   <!-- Spacer Tools Coming Soon -->
 
   <!-- Tool Belts -->
   <ThingDef Name="BaseToolBelt" Abstract="True">
-	<thingClass>Apparel</thingClass>
-	<category>Item</category>
-	<selectable>True</selectable>
-	<pathCost>10</pathCost>
-	<useHitPoints>True</useHitPoints>
-	<graphicData>
-	  <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-	</graphicData>
-	<drawGUIOverlay>true</drawGUIOverlay>
-	<statBases>
-	  <MaxHitPoints>100</MaxHitPoints>
-	  <Flammability>1.0</Flammability>
-	  <DeteriorationRate>1</DeteriorationRate>
-	  <SellPriceFactor>0.5</SellPriceFactor>
-	</statBases>
-	<altitudeLayer>Item</altitudeLayer>
-	<alwaysHaulable>True</alwaysHaulable>
-	<tickerType>Never</tickerType>
-	<thingCategories>
-	  <li>Apparel</li>
-	</thingCategories>
-	<comps>
-	  <li>
-		<compClass>CompForbiddable</compClass>
-	  </li>
-	  <li>
-		<compClass>CompColorable</compClass>
-	  </li>
-	  <li>
-		<compClass>CompQuality</compClass>
-	  </li>
-	</comps>
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<graphicData>
+		  <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+		  <MaxHitPoints>100</MaxHitPoints>
+		  <Flammability>1.0</Flammability>
+		  <DeteriorationRate>1</DeteriorationRate>
+		  <SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<thingCategories>
+		  <li>Apparel</li>
+		</thingCategories>
+		<comps>
+		  <li>
+				<compClass>CompForbiddable</compClass>
+		  </li>
+		  <li>
+				<compClass>CompColorable</compClass>
+		  </li>
+		  <li>
+				<compClass>CompQuality</compClass>
+		  </li>
+		</comps>
   </ThingDef>
-	
+
 	<ThingDef ParentName="BaseToolBelt">
->>>>>>> fb7fbb1d2d42a8a76b7eedba8b3daa871e9b284a
 		<defName>RTFTJ_Toolbelt</defName>
 		<label>Toolbelt</label>
 		<description>A basic toolbelt.</description>
@@ -420,7 +391,7 @@
 			<MiningYield>0.45</MiningYield>
 		</equippedStatOffsets>
 	</ThingDef>
-  
+
 	<ThingDef ParentName="BaseToolBelt">
 		<defName>RTFTJ_ToolbeltAdv</defName>
 		<label>Advanced Toolbelt</label>
@@ -458,4 +429,4 @@
 		</equippedStatOffsets>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

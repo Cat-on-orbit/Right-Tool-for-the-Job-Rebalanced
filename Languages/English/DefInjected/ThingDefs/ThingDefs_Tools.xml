@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<RTFTJ_Neo_Pick.label>Stone Pickaxe</RTFTJ_Neo_Pick.label>
+	<RTFTJ_Neo_Pick.description>A pick for mining faster.</RTFTJ_Neo_Pick.description>
+
+	<RTFTJ_Neo_Shovel.label>Stone Shovel</RTFTJ_Neo_Shovel.label>
+	<RTFTJ_Neo_Shovel.description>A shovel for growing.</RTFTJ_Neo_Shovel.description>
+
 	<RTFTJ_Pickaxe.label>Pickaxe</RTFTJ_Pickaxe.label>
 	<RTFTJ_Pickaxe.description>A pickaxe for mining faster.</RTFTJ_Pickaxe.description>
 

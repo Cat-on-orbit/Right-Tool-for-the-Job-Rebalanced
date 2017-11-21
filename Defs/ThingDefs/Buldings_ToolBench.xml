@@ -1,22 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
-  <ThingDef Name="BuildingBase" Abstract="True">
-    <category>Building</category>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-    <selectable>true</selectable>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <repairEffect>Repair</repairEffect>
-    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
-  </ThingDef>
-  
   <ThingDef ParentName="BuildingBase">
-    <DefName>RTFTJToolBench</DefName>
+    <defName>RTFTJToolBench</defName>
     <label>Tool Construction Bench</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A table and machinery for assembling tools.</Description>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A table and machinery for assembling tools.</description>
     <graphicData>
       <texPath>things/building/6dd_ToolBench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -28,10 +17,10 @@
       <li>Woody</li>
     </stuffCategories>
     <costStuffCount>80</costStuffCount>
-    <CostList>
+    <costList>
       <Component>1</Component>
       <Steel>10</Steel>
-    </CostList>
+    </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
@@ -41,8 +30,8 @@
       <Flammability>1.0</Flammability>
     </statBases>
     <Size>(3,1)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -73,4 +62,4 @@
     </researchPrerequisites>
   </ThingDef>
 
-</ThingDefs>
+</Defs>
