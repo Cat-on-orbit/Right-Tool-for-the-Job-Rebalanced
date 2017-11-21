@@ -1,4 +1,4 @@
-[![status](https://img.shields.io/badge/A17-working-brightgreen.svg)](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/releases/tag/0.17.1.17) ![status](https://img.shields.io/badge/B18-broken-red.svg)
+[![status](https://img.shields.io/badge/A17-working-brightgreen.svg)](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/releases/tag/0.17.1.17) [![status](https://img.shields.io/badge/B18-working-brightgreen.svg)]()
 ## Right Tool For The Job: Rebalanced
 
 ![screenshot](https://image.ibb.co/j1RoHa/preview.png)
