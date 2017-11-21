@@ -1,4 +1,4 @@
- ![status](https://img.shields.io/badge/status-broken-red.svg)
+![status](https://img.shields.io/badge/A17-working-brightgreen.svg) ![status](https://img.shields.io/badge/B18-broken-red.svg)
 ## Right Tool For The Job: Rebalanced
 
 ![screenshot](https://image.ibb.co/j1RoHa/preview.png)
