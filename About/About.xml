@@ -6,18 +6,22 @@
   <targetVersion>0.18.1722</targetVersion>
   <description>This is a fork of ItchyFlea's "Right Tool For The Job", which is licensed under CC By-SA 4.0.\n (See this thread: https://ludeon.com/forums/index.php?topic=6666.0)
 
-!EXPERIMENTAL B18 BUILD!
-  !PLEASE REPORT BUGS!
 
-This mod adds the following to the game:
+This mod adds the following tools to the game:
 
- • Mining Tools (Weapon type)
- • Woodcutting Tools (Weapon type)
- • Construction Tools (Weapon type)
- • Toolbelt (Accessory)
- • Advanced Toolbelt (Accessory)
+ • Stone Pick (Tribal Mining)
+ • Stone Shovel (Tribal Planting)
+ • Pickaxe (Industrial Mining)
+ • Axe (Industrial Plantcutting)
+ • Hammer (Industrial Construction)
+ • Drill (Spacer Mining)
+ • Chainsaw (Spacer Plantcutting)
+ • Auto-Hammer (Spacer Construction)
+ • Toolbelt (Industrial Accessory)
+ • Advanced Toolbelt (Spacer Accessory)
 
-All can be constructed at the 'Tool Construction Bench' for appropriate costs. The better tools (Drill, Chainsaw, Autohammer) require some plasteel and components to make, but they greatly increase a colonist's speed in the appropriate category.
+Both tribal tools can be constructed at the crafting spot.
+All Industrial+ tools can be constructed at the 'Tool Construction Bench' for appropriate costs. The better tools (Drill, Chainsaw, Autohammer) require some plasteel and components to make, but they greatly increase a colonist's speed in the appropriate category.
 The Toolbelt and Advanced Toolbelt are clothing items which improve a colonist's work speeds in each category that the tools affect.
 
 Everything can also be traded with traders.
