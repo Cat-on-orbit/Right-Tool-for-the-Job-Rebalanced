@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="BaseToolNeolithic" ParentName="BaseMeleeWeapon" Abstract="True">
+	<ThingDef Name="BaseToolNeolithic" Abstract="True">
+		<smeltable>false</smeltable>
+		<thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
 		<techLevel>Neolithic</techLevel>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
@@ -11,9 +16,14 @@
 				<compClass>CompQuality</compClass>
 			</li>
 		</comps>
-	</ThingDef>
+  </ThingDef>
 
-	<ThingDef Name="BaseToolMedieval" ParentName="BaseMeleeWeapon" Abstract="True">
+	<ThingDef Name="BaseToolMedieval" Abstract="True">
+		<smeltable>false</smeltable>
+		<thingClass>ThingWithComps</thingClass>
+		<thingCategories>
+			<li>WeaponsMelee</li>
+		</thingCategories>
 		<techLevel>Medieval</techLevel>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
@@ -25,7 +35,12 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef Name="BaseToolIndustrial" ParentName="BaseMeleeWeapon" Abstract="True">
+	<ThingDef Name="BaseToolIndustrial" Abstract="True">
+		<smeltable>true</smeltable>
+		<thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
 		<techLevel>Industrial</techLevel>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -37,7 +52,12 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef Name="BaseToolSpacer" ParentName="BaseMeleeWeapon" Abstract="True">
+	<ThingDef Name="BaseToolSpacer" Abstract="True">
+		<smeltable>true</smeltable>
+		<thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
 		<techLevel>Spacer</techLevel>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>

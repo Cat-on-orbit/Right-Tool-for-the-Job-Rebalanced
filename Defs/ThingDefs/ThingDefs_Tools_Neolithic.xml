@@ -30,7 +30,6 @@
 			<MiningSpeed>0.15</MiningSpeed>
 			<MiningYield>0.15</MiningYield>
 		</equippedStatOffsets>
-		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseToolNeolithic">
@@ -61,7 +60,6 @@
 			<PlantWorkSpeed>0.15</PlantWorkSpeed>
 			<PlantHarvestYield>0.15</PlantHarvestYield>
 		</equippedStatOffsets>
-		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
 
 </Defs>

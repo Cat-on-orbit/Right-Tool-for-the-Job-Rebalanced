@@ -4,11 +4,12 @@
 	<RecipeDef>
 		<defName>MakeStonePick</defName>
 		<label>make stone pick</label>
-		<description>Makes a stone pickaxe</description>
+		<description>Makes a stone pickaxe\n\nMining Speed +15%\nMining Yield +15%</description>
 		<jobString>Making a tool.</jobString>
-		<workAmount>1800</workAmount>
+		<workAmount>420</workAmount>
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<recipeUsers>
@@ -43,17 +44,17 @@
 				<li>WoodLog</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	<RecipeDef>
 		<defName>MakeStoneShovel</defName>
 		<label>make stone shovel</label>
-		<description>Makes a stone shovel</description>
+		<description>Makes a stone shovel\n\nPlant Work Speed +15%\nPlant Work Yield +15%</description>
 		<jobString>Making a tool.</jobString>
-		<workAmount>1800</workAmount>
+		<workAmount>420</workAmount>
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<recipeUsers>
@@ -88,7 +89,6 @@
 				<li>WoodLog</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 </Defs>
