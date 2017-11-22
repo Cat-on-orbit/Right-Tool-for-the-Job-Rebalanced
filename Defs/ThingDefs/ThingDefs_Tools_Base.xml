@@ -1,29 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="BaseToolNeolithic" Abstract="True">
-		<smeltable>false</smeltable>
+	<ThingDef Name="BaseTool" Abstract="True">
 		<thingClass>ThingWithComps</thingClass>
-    <thingCategories>
+		<category>Item</category>
+		<thingCategories>
       <li>WeaponsMelee</li>
     </thingCategories>
-		<techLevel>Neolithic</techLevel>
-		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
-		</statBases>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<equipmentType>Primary</equipmentType>
+		<useHitPoints>true</useHitPoints>
+		<pathCost>10</pathCost>
+		<selectable>true</selectable>
 		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
 		</comps>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef Name="BaseToolNeolithic" ParentName="BaseTool" Abstract="True">
+		<smeltable>false</smeltable>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
   </ThingDef>
 
-	<ThingDef Name="BaseToolMedieval" Abstract="True">
-		<smeltable>false</smeltable>
-		<thingClass>ThingWithComps</thingClass>
-		<thingCategories>
-			<li>WeaponsMelee</li>
-		</thingCategories>
+	<ThingDef Name="BaseToolMedieval" ParentName="BaseTool" Abstract="True">
+		<smeltable>true</smeltable>
 		<techLevel>Medieval</techLevel>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
@@ -35,12 +50,8 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef Name="BaseToolIndustrial" Abstract="True">
+	<ThingDef Name="BaseToolIndustrial" ParentName="BaseTool" Abstract="True">
 		<smeltable>true</smeltable>
-		<thingClass>ThingWithComps</thingClass>
-    <thingCategories>
-      <li>WeaponsMelee</li>
-    </thingCategories>
 		<techLevel>Industrial</techLevel>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -52,12 +63,8 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef Name="BaseToolSpacer" Abstract="True">
+	<ThingDef Name="BaseToolSpacer" ParentName="BaseTool" Abstract="True">
 		<smeltable>true</smeltable>
-		<thingClass>ThingWithComps</thingClass>
-    <thingCategories>
-      <li>WeaponsMelee</li>
-    </thingCategories>
 		<techLevel>Spacer</techLevel>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
