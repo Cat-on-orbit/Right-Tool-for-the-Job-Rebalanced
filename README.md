@@ -44,4 +44,4 @@
 - Dellamorte: Compatibility Patching
  
 ### License 
-- see [LICENSE](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/blob/master/LICENSE.md) file 
+- see [LICENSE](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/blob/master/LICENSE) file 
