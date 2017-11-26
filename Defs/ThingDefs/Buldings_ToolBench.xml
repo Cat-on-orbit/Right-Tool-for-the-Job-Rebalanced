@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BenchBase">
     <defName>RTFTJToolBench</defName>
     <label>Tool Construction Bench</label>
     <thingClass>Building_WorkTable</thingClass>
@@ -19,8 +19,8 @@
     </stuffCategories>
     <costStuffCount>80</costStuffCount>
     <costList>
-      <Component>1</Component>
-      <Steel>10</Steel>
+      <Component>5</Component>
+      <Steel>50</Steel>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
