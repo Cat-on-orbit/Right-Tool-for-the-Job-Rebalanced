@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RTFTJToolBench.label>道具工作台</RTFTJToolBench.label>
+  <RTFTJToolBench.description>道具を組み立てるためのテーブルと工具類。</RTFTJToolBench.description>
+  <RTFTJToolBench_Blueprint.label>道具工作台(設計)</RTFTJToolBench_Blueprint.label>
+  <RTFTJToolBench_Frame.label>道具工作台(施工)</RTFTJToolBench_Frame.label>
+  <RTFTJToolBench_Frame.description>道具を組み立てるためのテーブルと工具類。</RTFTJToolBench_Frame.description>
+
+
+</LanguageData>

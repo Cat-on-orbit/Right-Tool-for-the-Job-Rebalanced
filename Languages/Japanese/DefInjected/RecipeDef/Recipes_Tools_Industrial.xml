@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakePickaxe.label>ツルハシ作成</MakePickaxe.label>
+  <MakePickaxe.description>ツルハシを作成します。</MakePickaxe.description>
+  <MakePickaxe.jobString>道具を作成中</MakePickaxe.jobString>
+
+  <MakeHandaxe.label>斧作成</MakeHandaxe.label>
+  <MakeHandaxe.description>斧を作成します。</MakeHandaxe.description>
+  <MakeHandaxe.jobString>道具を作成中</MakeHandaxe.jobString>
+
+  <MakeHammer.label>ハンマー作成</MakeHammer.label>
+  <MakeHammer.description>ハンマーを作成します。</MakeHammer.description>
+  <MakeHammer.jobString>道具を作成中</MakeHammer.jobString>
+
+  <MakeDrill.label>ドリル作成</MakeDrill.label>
+  <MakeDrill.description>ドリルを作成します。</MakeDrill.description>
+  <MakeDrill.jobString>道具を作成中</MakeDrill.jobString>
+
+  <MakeChainsaw.label>チェインソー作成</MakeChainsaw.label>
+  <MakeChainsaw.description>チェインソーを作成します。</MakeChainsaw.description>
+  <MakeChainsaw.jobString>道具を作成中</MakeChainsaw.jobString>
+
+  <MakeAutohammer.label>自動ハンマー作成</MakeAutohammer.label>
+  <MakeAutohammer.description>自動ハンマーを作成します。</MakeAutohammer.description>
+  <MakeAutohammer.jobString>道具を作成中</MakeAutohammer.jobString>
+
+
+  <!-- Toolbelts -->
+
+  <MakeToolbelt.label>ツールベルト作成</MakeToolbelt.label>
+  <MakeToolbelt.description>ツールベルトを作成します。</MakeToolbelt.description>
+  <MakeToolbelt.jobString>ツールベルトを作成中</MakeToolbelt.jobString>
+
+  <MakeToolbeltAdv.label>高度なツールベルト作成</MakeToolbeltAdv.label>
+  <MakeToolbeltAdv.description>高度なツールベルトを作成します。</MakeToolbeltAdv.description>
+  <MakeToolbeltAdv.jobString>ツールベルトを作成中</MakeToolbeltAdv.jobString>
+
+
+</LanguageData>

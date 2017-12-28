@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RTFTJ_Pickaxe.label>ツルハシ</RTFTJ_Pickaxe.label>
+  <RTFTJ_Pickaxe.description>ツルハシを使うと採掘の作業時間が短縮できます。</RTFTJ_Pickaxe.description>
+  <RTFTJ_Pickaxe.tools.0.label>切っ先</RTFTJ_Pickaxe.tools.0.label>
+
+  <RTFTJ_HandAxe.label>アックス</RTFTJ_HandAxe.label>
+  <RTFTJ_HandAxe.description>アックスは木を伐採するのに使います。</RTFTJ_HandAxe.description>
+  <RTFTJ_HandAxe.tools.0.label>切っ先</RTFTJ_HandAxe.tools.0.label>
+
+  <RTFTJ_Hammer.label>ハンマー</RTFTJ_Hammer.label>
+  <RTFTJ_Hammer.description>建築で使われるハンマーです。</RTFTJ_Hammer.description>
+  <RTFTJ_Hammer.tools.0.label>切っ先</RTFTJ_Hammer.tools.0.label>
+
+  <RTFTJ_Drill.label>ドリル</RTFTJ_Drill.label>
+  <RTFTJ_Drill.description>ドリルを使うと採掘の作業時間が短縮できます。</RTFTJ_Drill.description>
+  <RTFTJ_Drill.tools.0.label>切っ先</RTFTJ_Drill.tools.0.label>
+
+  <RTFTJ_Chainsaw.label>チェインソー</RTFTJ_Chainsaw.label>
+  <RTFTJ_Chainsaw.description>チェインソーで木を伐採します。</RTFTJ_Chainsaw.description>
+  <RTFTJ_Chainsaw.tools.0.label>切っ先</RTFTJ_Chainsaw.tools.0.label>
+
+  <RTFTJ_Autohammer.label>オートハンマー</RTFTJ_Autohammer.label>
+  <RTFTJ_Autohammer.description>建築で使われるハンマーです。</RTFTJ_Autohammer.description>
+  <RTFTJ_Autohammer.tools.0.label>切っ先</RTFTJ_Autohammer.tools.0.label>
+
+
+  <!-- Tool Belts -->
+
+  <RTFTJ_Toolbelt.label>ツールベルト</RTFTJ_Toolbelt.label>
+  <RTFTJ_Toolbelt.description>基本的なツールベルトです。</RTFTJ_Toolbelt.description>
+
+  <RTFTJ_ToolbeltAdv.label>高機能ツールベルト</RTFTJ_ToolbeltAdv.label>
+  <RTFTJ_ToolbeltAdv.description>より効率の良い道具が装備された高機能なツールベルトです。</RTFTJ_ToolbeltAdv.description>
+
+
+</LanguageData>
