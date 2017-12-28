@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Neolithic Tools -->
+
+  <RTFTJ_Neo_Pick.label>ツルハシ(石製)</RTFTJ_Neo_Pick.label>
+  <RTFTJ_Neo_Pick.description>岩から作ることができる採掘用のツルハシです。</RTFTJ_Neo_Pick.description>
+  <RTFTJ_Neo_Pick.tools.0.label>切っ先</RTFTJ_Neo_Pick.tools.0.label>
+
+  <RTFTJ_Neo_Shovel.label>シャベル(石製)</RTFTJ_Neo_Shovel.label>
+  <RTFTJ_Neo_Shovel.description>岩から作ることができる栽培用のシャベルです。</RTFTJ_Neo_Shovel.description>
+  <RTFTJ_Neo_Shovel.tools.0.label>切っ先</RTFTJ_Neo_Shovel.tools.0.label>
+
+
+</LanguageData>
