@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-    <identifier>Right Tool: Rebalanced</identifier>
-    <version>1.0.0.0</version>
-    <dependencies>
-    </dependencies>
-    <incompatibleWith>
-    </incompatibleWith>
-    <loadBefore>
-    </loadBefore>
-    <loadAfter>
-        <li>Core</li>
-    </loadAfter>
-    <suggests>
-    </suggests>
+    <identifier>RightTool</identifier>
+    <version>1.0.0</version>
     <showCrossPromotions>true</showCrossPromotions>
     <manifestUri>https://github.com/ruyanve/Right-Tool-for-the-Job-Rebalanced/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/ruyanve/Right-Tool-for-the-Job-Rebalanced/releases/latest</downloadUri>
