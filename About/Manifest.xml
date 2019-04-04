@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>Right Tool: Rebalanced</identifier>
-    <version>0.1.1.1</version>
+    <version>1.0.0.0</version>
     <dependencies>
     </dependencies>
     <incompatibleWith>
@@ -12,7 +12,6 @@
         <li>Core</li>
     </loadAfter>
     <suggests>
-        <li>ModCheck &gt;= 1.8.0.0</li>
     </suggests>
     <showCrossPromotions>true</showCrossPromotions>
     <manifestUri>https://github.com/ruyanve/Right-Tool-for-the-Job-Rebalanced/master/About/Manifest.xml</manifestUri>
