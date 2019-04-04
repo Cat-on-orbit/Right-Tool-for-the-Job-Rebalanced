@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
   <WorkGiverDef>
     <defName>DoBillsMaketool</defName>
     <giverClass>WorkGiver_DoBill</giverClass>
@@ -10,7 +10,7 @@
     <verb>tool make</verb>
     <gerund>making tool</gerund>
     <requiredCapacities>
-		  <li>Manipulation</li>
+      <li>Manipulation</li>
     </requiredCapacities>
     <fixedBillGiverDefs>
       <li>RTFTJToolBench</li>

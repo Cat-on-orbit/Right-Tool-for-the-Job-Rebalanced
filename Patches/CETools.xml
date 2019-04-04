@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="CombatExtended.PatchOperationFindMod">
+    <modName>Toolmetrics Redux</modName>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+<xpath>Defs/ThingDef[defName="RTFTJ_Chainsaw"]/tools</xpath>
+<value>
+  <tools>
+  <li Class="CombatExtended.ToolCE">
+    <label>edge</label>
+    <capacities>
+    <li>Cut</li>
+    </capacities>
+    <power>25.0</power>
+    <cooldownTime>3.2</cooldownTime>
+    <chanceFactor>1.33</chanceFactor>
+    <armorPenetration>0.125</armorPenetration>
+    <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+  </li>
+  </tools>
+</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+<xpath>Defs/ThingDef[defName="RTFTJ_Chainsaw"]/statBases</xpath>
+<value>
+  <Bulk>9</Bulk>
+  <MeleeCounterParryBonus>1.1</MeleeCounterParryBonus>
+</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+<xpath>Defs/ThingDef[defName="RTFTJ_Chainsaw"]/equippedStatOffsets</xpath>
+<value>
+  <MeleeCritChance>0.5</MeleeCritChance>
+  <MeleeParryChance>0.25</MeleeParryChance>
+</value>
+</Operation>
+
+<Operation Class="PatchOperationSequence">
+<success>Always</success>
+<operations>
+  <li Class="PatchOperationTest">
+  <xpath>Defs/ThingDef[defName="RTFTJ_Chainsaw"]/weaponTags</xpath>
+  <success>Invert</success>
+  </li>
+  <li Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName="RTFTJ_Chainsaw"]</xpath>
+  <value>
+    <weaponTags />
+  </value>
+  </li>
+</operations>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+<xpath>Defs/ThingDef[defName="RTFTJ_Chainsaw"]/weaponTags</xpath>
+<value>
+  <li>CE_TwoHandedWeapon</li>
+</value>
+</Operation>

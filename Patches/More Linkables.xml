@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="PatchOperationSequence">
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>More Linkables</li>
+	</mods>
+	<match Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-			<li Class="ModCheck.isModLoaded">
-				<modName>More Linkables</modName>
-				<yourMod>Right Tool Rebalanced</yourMod>
-			</li>
-			<li Class="PatchOperationAdd">
+			<!--Furniture_ToolCabinets-->
+			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[DefName = "RTFTJToolBench"]/comps/li/linkableFacilities</xpath>
 				<value>
 					<li>ToolCabinetA</li>
@@ -17,6 +18,6 @@
 				</value>
 			</li>
 		</operations>
-	</Operation>
-
+	</match>
+</Operation>
 </Patch>

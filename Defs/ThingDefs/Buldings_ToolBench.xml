@@ -19,7 +19,7 @@
     </stuffCategories>
     <costStuffCount>80</costStuffCount>
     <costList>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
       <Steel>50</Steel>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
@@ -58,7 +58,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>Electricity</li>
+      <li>Machining</li>
     </researchPrerequisites>
   </ThingDef>
 

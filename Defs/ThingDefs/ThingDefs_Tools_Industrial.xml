@@ -9,7 +9,7 @@
 			<texPath>things/items/tools/Pickaxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
 			<MarketValue>72</MarketValue>
 			<Mass>2.72</Mass>
@@ -40,7 +40,7 @@
 			<texPath>things/items/tools/HandAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
 			<MarketValue>72</MarketValue>
 			<Mass>2.27</Mass>
@@ -71,7 +71,7 @@
 			<texPath>things/items/tools/Hammer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
 			<MarketValue>50</MarketValue>
 			<Mass>1.82</Mass>
@@ -104,7 +104,7 @@
 			<texPath>things/items/tools/Drill</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
 			<MarketValue>600</MarketValue>
 			<Mass>2.77</Mass>
@@ -136,7 +136,7 @@
 			<texPath>things/items/tools/Chainsaw</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
 			<MarketValue>590</MarketValue>
 			<Mass>3.63</Mass>
@@ -168,7 +168,7 @@
 			<texPath>things/items/tools/Autohammer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
 			<MarketValue>596</MarketValue>
 			<Mass>2.82</Mass>

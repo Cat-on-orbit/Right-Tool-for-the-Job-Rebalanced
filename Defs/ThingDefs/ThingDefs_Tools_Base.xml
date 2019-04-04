@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="BaseTool" Abstract="True">
+	<ThingDefs Name="BaseTool" Abstract="True">
 		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
 		<thingCategories>
-      <li>WeaponsMelee</li>
-    </thingCategories>
+			<li>WeaponsMelee</li>
+		</thingCategories>
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<altitudeLayer>Item</altitudeLayer>
 		<alwaysHaulable>true</alwaysHaulable>
@@ -16,7 +16,7 @@
 		<pathCost>10</pathCost>
 		<selectable>true</selectable>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Forbiddable" />
 			<li>
 				<compClass>CompEquippable</compClass>
 			</li>
@@ -27,30 +27,25 @@
 		<graphicData>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
 		</graphicData>
-	</ThingDef>
+	</ThingDefs>
 
-	<ThingDef Name="BaseToolNeolithic" ParentName="BaseTool" Abstract="True">
+	<ThingDefs Name="BaseToolNeolithic" ParentName="BaseTool" Abstract="True">
 		<smeltable>false</smeltable>
 		<techLevel>Neolithic</techLevel>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 		</statBases>
-  </ThingDef>
+	</ThingDefs>
 
-	<ThingDef Name="BaseToolMedieval" ParentName="BaseTool" Abstract="True">
+	<ThingDefs Name="BaseToolMedieval" ParentName="BaseTool" Abstract="True">
 		<smeltable>true</smeltable>
 		<techLevel>Medieval</techLevel>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 		</statBases>
-		<comps>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-		</comps>
-	</ThingDef>
+	</ThingDefs>
 
-	<ThingDef Name="BaseToolIndustrial" ParentName="BaseTool" Abstract="True">
+	<ThingDefs Name="BaseToolIndustrial" ParentName="BaseTool" Abstract="True">
 		<smeltable>true</smeltable>
 		<techLevel>Industrial</techLevel>
 		<statBases>
@@ -61,9 +56,9 @@
 				<compClass>CompQuality</compClass>
 			</li>
 		</comps>
-	</ThingDef>
+	</ThingDefs>
 
-	<ThingDef Name="BaseToolSpacer" ParentName="BaseTool" Abstract="True">
+	<ThingDefs Name="BaseToolSpacer" ParentName="BaseTool" Abstract="True">
 		<smeltable>true</smeltable>
 		<techLevel>Spacer</techLevel>
 		<statBases>
@@ -74,41 +69,37 @@
 				<compClass>CompQuality</compClass>
 			</li>
 		</comps>
-	</ThingDef>
+	</ThingDefs>
 
-	<ThingDef Name="BaseToolBelt" Abstract="True">
+	<ThingDefs Name="BaseToolBelt" Abstract="True">
 		<thingClass>Apparel</thingClass>
 		<category>Item</category>
 		<selectable>True</selectable>
 		<pathCost>10</pathCost>
 		<useHitPoints>True</useHitPoints>
 		<graphicData>
-		  <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
 		</graphicData>
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<statBases>
-		  <MaxHitPoints>100</MaxHitPoints>
-		  <Flammability>1.0</Flammability>
-		  <DeteriorationRate>1</DeteriorationRate>
-		  <SellPriceFactor>0.5</SellPriceFactor>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
 		</statBases>
 		<altitudeLayer>Item</altitudeLayer>
 		<alwaysHaulable>True</alwaysHaulable>
 		<tickerType>Never</tickerType>
 		<thingCategories>
-		  <li>Apparel</li>
+			<li>Apparel</li>
 		</thingCategories>
 		<comps>
-		  <li>
-				<compClass>CompForbiddable</compClass>
-		  </li>
-		  <li>
-				<compClass>CompColorable</compClass>
-		  </li>
-		  <li>
+			<li Class="CompProperties_Forbiddable" />
+			
+			<li>
 				<compClass>CompQuality</compClass>
-		  </li>
+		    </li>
 		</comps>
-  </ThingDef>
+	</ThingDefs>
 
 </Defs>

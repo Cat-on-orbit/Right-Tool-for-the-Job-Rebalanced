@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Right Tool Rebalanced</name>
-  <author>Sixdd</author>
-  <url>https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced</url>
-  <targetVersion>0.18.1722</targetVersion>
+  <name>Right Tool: Rebalanced</name>
+  <author>Ruyan</author>
+  <url>https://github.com/ruyanve/Right-Tool-for-the-Job-Rebalanced</url>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
   <description>This mod adds the following tools to the game:
 
  • Stone Pick (Tribal Mining)
@@ -31,11 +33,12 @@ Credits:
 ItchyFlea: Mod Creator
 Shinzy: Texture Artist
 Thundercraft: Rebalanced Fork
-Sixdd: Current Maintainer
+Sixdd: Former Maintainer
 Dellamorte: Compatibility Patching
+skyla: updating
+ruyan: Current Maintainer
 
 Translations
 ============
-Proxyer: Japanese Translation
-</description>
+Proxyer: Japanese Translation</description>
 </ModMetaData>

@@ -10,8 +10,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
-  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-  	<recipeUsers>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -96,8 +96,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
-  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-  	<recipeUsers>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -139,8 +139,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
-  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-  	<recipeUsers>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -163,7 +163,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Component</li>
+						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -176,7 +176,7 @@
 			<thingDefs>
 				<li>Plasteel</li>
 				<li>Steel</li>
-				<li>Component</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
@@ -191,8 +191,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
-  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-  	<recipeUsers>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -215,7 +215,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Component</li>
+						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -228,7 +228,7 @@
 			<thingDefs>
 				<li>Plasteel</li>
 				<li>Steel</li>
-				<li>Component</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
@@ -243,8 +243,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
-  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-  	<recipeUsers>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -267,7 +267,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Component</li>
+						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -280,7 +280,7 @@
 			<thingDefs>
 				<li>Plasteel</li>
 				<li>Steel</li>
-				<li>Component</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
@@ -297,8 +297,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
-  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-  	<recipeUsers>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
@@ -364,8 +364,8 @@
 		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
-  	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-  	<recipeUsers>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
 			<li>RTFTJToolBench</li>
 		</recipeUsers>
 		<ingredients>
