@@ -23,7 +23,7 @@
 
 ### Contributors 
 - Oken for the idea to increase yields when using tools
-- [Contributors on GitHub](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/graphs/contributors) 
+- [Contributors on GitHub](https://github.com/ruyanve/Right-Tool-for-the-Job-Rebalanced/graphs/contributors) 
 
 ### Translations 
 - I am happy to accept translations for this project. Language files are now included in the project. 
@@ -33,8 +33,8 @@
 - Activate the mod in the mod menu in the game. 
  
 ### Contact 
-- Forum Thread: [Link](https://ludeon.com/forums/index.php?topic=33092.0) 
-- e-mail: [sixdd6@gmail.com](sixdd6@gmail.com) 
+- Original Forum Thread: [Link](https://ludeon.com/forums/index.php?topic=33092.0) 
+- e-mail: [budd@post.com](budd@post.com) 
  
 ### Credits 
 ItchyFlea: Mod Creator
