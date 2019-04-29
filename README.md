@@ -37,17 +37,17 @@
 - e-mail: [budd@post.com](budd@post.com) 
  
 ### Credits 
-ItchyFlea: Mod Creator
-Shinzy: Texture Artist
-Thundercraft: Rebalanced Fork
-Sixdd: Former Maintainer
-Dellamorte: Compatibility Patching
-skyla: Updating
-ruyan: Current Maintainer
+- ItchyFlea: Mod Creator
+- Shinzy: Texture Artist
+- Thundercraft: Rebalanced Fork
+- Sixdd: Former Maintainer
+- Dellamorte: Compatibility Patching
+- skyla: Updating
+- ruyan: Current Maintainer
 
 ### Translations
-Proxyer: Japanese Translation
-Trunken: German Translation
+- Proxyer: Japanese Translation
+- Trunken: German Translation
  
 ### License 
 - see [LICENSE](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/blob/master/LICENSE) file 
