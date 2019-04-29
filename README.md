@@ -37,11 +37,17 @@
 - e-mail: [sixdd6@gmail.com](sixdd6@gmail.com) 
  
 ### Credits 
-- ItchyFlea: Original Mod 
-- Shinzy: Artwork 
-- Thundercraft: Original Rebalanced Fork 
-- Sixdd: Updated to A17 and Tweaked 
-- Dellamorte: Compatibility Patching
+ItchyFlea: Mod Creator
+Shinzy: Texture Artist
+Thundercraft: Rebalanced Fork
+Sixdd: Former Maintainer
+Dellamorte: Compatibility Patching
+skyla: Updating
+ruyan: Current Maintainer
+
+### Translations
+Proxyer: Japanese Translation
+Trunken: German Translation
  
 ### License 
 - see [LICENSE](https://github.com/Sixdd6/Right-Tool-for-the-Job-Rebalanced/blob/master/LICENSE) file 
