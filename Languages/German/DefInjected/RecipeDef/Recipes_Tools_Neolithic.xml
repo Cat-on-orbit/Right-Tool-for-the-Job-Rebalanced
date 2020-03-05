@@ -5,8 +5,8 @@
   <MakeStonePick.description>Stelle eine Picke mit einem Steinkopf her. Hilft einem mit einfachen Mitteln störende Felsen im adequaten Tempo abzubauen.</MakeStonePick.description>
   <MakeStonePick.jobString>Werkzeug-Anfertigung.</MakeStonePick.jobString>
   <!-- Schippe -->
-  <MakeStoneShovel.label>Stelle einen Spaten her</MakeStoneShovel.label>
-  <MakeStoneShovel.description>Stelle eine Schippe aus Stein her. Hilfreich bei einfacher Gartenarbeit.</MakeStoneShovel.description>
+  <MakeStoneShovel.label>Stelle einen Schaufel her</MakeStoneShovel.label>
+  <MakeStoneShovel.description>Stelle eine Schaufel aus Stein her. Hilfreich bei einfacher Gartenarbeit.</MakeStoneShovel.description>
   <MakeStoneShovel.jobString>Werkzeug-Anfertigung.</MakeStoneShovel.jobString>
-  
+
 </LanguageData>

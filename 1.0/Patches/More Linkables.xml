@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>More Linkables</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!--Furniture_ToolCabinets-->
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[DefName = "RTFTJToolBench"]/comps/li/linkableFacilities</xpath>
+				<value>
+					<li>ToolCabinetA</li>
+					<li>ToolCabinetB</li>
+					<li>ToolCabinetC</li>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+</Patch>

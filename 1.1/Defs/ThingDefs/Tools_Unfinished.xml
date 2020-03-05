@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedTool</defName>
+		<label>unfinished tool</label>
+		<graphicData>
+			<texPath>Things/Item/Unfinished/UnfinishedComponent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+</Defs>

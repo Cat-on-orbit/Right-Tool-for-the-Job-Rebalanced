@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MakePickaxe.label>Stelle eine Pickaxt her</MakePickaxe.label>
-  <MakePickaxe.description>Stelle eine Pickaxt her.</MakePickaxe.description>
+  <MakePickaxe.label>Stelle eine Spitzhacke her</MakePickaxe.label>
+  <MakePickaxe.description>Stelle eine Spitzhacke her.</MakePickaxe.description>
   <MakePickaxe.jobString>Werkzeug-Anfertigung.</MakePickaxe.jobString>
 
   <MakeHandaxe.label>Stelle eine Axt her</MakeHandaxe.label>
@@ -13,8 +13,8 @@
   <MakeHammer.description>Stelle einen Hammer her.</MakeHammer.description>
   <MakeHammer.jobString>Werkzeug-Anfertigung.</MakeHammer.jobString>
   <!-- Jackhammer Drill, Bohrkopfhammer -->
-  <MakeDrill.label>Stelle einen Hybridbohrer her</MakeDrill.label>
-  <MakeDrill.description>Stelle eine Presslufthammer mit Bohrkopf her.</MakeDrill.description>
+  <MakeDrill.label>Stelle einen Presslufthammer her</MakeDrill.label>
+  <MakeDrill.description>Stelle eine Presslufthammer her.</MakeDrill.description>
   <MakeDrill.jobString>Werkzeug-Anfertigung.</MakeDrill.jobString>
 
   <MakeChainsaw.label>Stelle eine Kettensäge her</MakeChainsaw.label>

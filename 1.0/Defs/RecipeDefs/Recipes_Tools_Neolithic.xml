@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>MakeStonePick</defName>
+		<label>make stone pick</label>
+		<description>Makes a stone pickaxe\n\nMining Speed +15%\nMining Yield +15%</description>
+		<jobString>Making a tool.</jobString>
+		<workAmount>420</workAmount>
+		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<RTFTJ_Neo_Pick>1</RTFTJ_Neo_Pick>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeStoneShovel</defName>
+		<label>make stone shovel</label>
+		<description>Makes a stone shovel\n\nPlant Work Speed +15%\nPlant Work Yield +15%</description>
+		<jobString>Making a tool.</jobString>
+		<workAmount>420</workAmount>
+		<unfinishedThingDef>UnfinishedTool</unfinishedThingDef>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<RTFTJ_Neo_Shovel>1</RTFTJ_Neo_Shovel>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>
