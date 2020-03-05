@@ -91,6 +91,7 @@
 			<ConstructionSpeed>0.3</ConstructionSpeed>
 			<ConstructSuccessChance>0.3</ConstructSuccessChance>
 			<FixBrokenDownBuildingSuccessChance>0.3</FixBrokenDownBuildingSuccessChance>
+			<SmoothingSpeed>0.3</SmoothingSpeed>
 		</equippedStatOffsets>
 		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
@@ -123,6 +124,7 @@
 		<equippedStatOffsets>
 			<MiningSpeed>0.6</MiningSpeed>
 			<MiningYield>0.6</MiningYield>
+			<MoveSpeed>-0.06</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
@@ -155,6 +157,7 @@
 		<equippedStatOffsets>
 			<PlantWorkSpeed>0.6</PlantWorkSpeed>
 			<PlantHarvestYield>0.6</PlantHarvestYield>
+			<MoveSpeed>-0.06</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
@@ -188,6 +191,8 @@
 			<ConstructionSpeed>0.6</ConstructionSpeed>
 			<ConstructSuccessChance>0.6</ConstructSuccessChance>
 			<FixBrokenDownBuildingSuccessChance>0.6</FixBrokenDownBuildingSuccessChance>
+			<SmoothingSpeed>0.6</SmoothingSpeed>
+			<MoveSpeed>-0.06</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories><li>Weapons</li></thingCategories>
 	</ThingDef>
@@ -227,6 +232,7 @@
 			<PlantHarvestYield>0.45</PlantHarvestYield>
 			<MiningSpeed>0.45</MiningSpeed>
 			<MiningYield>0.45</MiningYield>
+			<SmoothingSpeed>0.45</SmoothingSpeed>
 		</equippedStatOffsets>
 	</ThingDef>
 
@@ -264,6 +270,7 @@
 			<PlantHarvestYield>0.75</PlantHarvestYield>
 			<MiningSpeed>0.75</MiningSpeed>
 			<MiningYield>0.75</MiningYield>
+			<SmoothingSpeed>0.75</SmoothingSpeed>
 		</equippedStatOffsets>
 	</ThingDef>
 
